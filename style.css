@@ -1,0 +1,146 @@
+
+#pippo{
+  text-align:  center;
+  font-size: 50px;
+  color: blue;
+
+
+}
+.logo-container{
+    text-align:  center;
+    vertical-align: bottom;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto 100px auto;
+    grid-template-rows: auto;
+}
+
+
+#paper{
+  text-align: right;
+}
+
+#scissors{
+  text-align: left;
+
+}
+
+.logo{
+  max-width: 75px;
+}
+
+.logo:hover{
+  background-color: grey;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  border-radius: 15px;
+
+}
+
+.score a{
+
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  max-width: 100px;
+
+}
+
+.score {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-top: 25px;
+}
+
+#User_score_label{
+  text-align: right;
+  margin-right: 5px;
+}
+#User_score{
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+#Computer_score_label{
+  text-align: left;
+  margin-left: 5px;
+
+}
+#Computer_score{
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+#Play_Result{
+  text-align: center;
+  margin-top: 50px;
+}
+.scores{
+  font-size: 40px;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 15px;
+  font-size: 12px;
+
+}
+
+.footer2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #E4E4E3;
+    padding-top: 15px;
+
+  }
+
+  .footer3 {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+    
+
+  }
+
+  .footer4 {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+
+  }
+
+  .footer4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .footer3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    padding-right: 20px;
+  }
